@@ -90,7 +90,7 @@ function ArticleEntry(props) {
             <p>
                 {news.slice(0, 100)}
             </p>
-            <Link to={`/single/${id} `} className="btn btn-outline-primary mb-4 text-capitalize"> read more</Link>
+            <Link to={`/single/${id} `} className="btn btn-outline-primary mb-4 text-capitalize"> Update Post</Link>
         </div>
     </div>
     );
